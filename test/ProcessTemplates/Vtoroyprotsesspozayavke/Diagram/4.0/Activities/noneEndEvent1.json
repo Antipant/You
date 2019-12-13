@@ -1,0 +1,49 @@
+{
+  "$type": "Comindware.Platform.Contracts.EndEventActivityModel, Comindware.Platform.Contracts",
+  "Kind": "None",
+  "IsInterrupting": false,
+  "BehaviourState": "Active",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Activity",
+    "Owner": "Vtoroyprotsesspozayavke",
+    "Alias": "noneEndEvent1"
+  },
+  "Title": "Завершающее событие 1",
+  "IsTitleSet": false,
+  "Position": {
+    "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+    "X": 980.0,
+    "Y": 100.0
+  },
+  "Size": {
+    "$type": "Comindware.Platform.Contracts.DimensionsModel, Comindware.Platform.Contracts",
+    "Width": 40.0,
+    "Height": 40.0
+  },
+  "Connectors": {
+    "$type": "Comindware.Platform.Contracts.ConnectorModel[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.ConnectorModel, Comindware.Platform.Contracts",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Activity",
+          "Owner": "Vtoroyprotsesspozayavke",
+          "Alias": "flow2"
+        },
+        "TargetConnectorIndex": 10,
+        "OwnIndex": 30
+      }
+    ]
+  },
+  "OwnerEmbeddedProcessActivityAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "MountedOnAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "Type": "EndEvent"
+}

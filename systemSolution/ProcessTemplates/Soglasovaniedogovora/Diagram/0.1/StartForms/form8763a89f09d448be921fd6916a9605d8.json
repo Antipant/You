@@ -1,0 +1,162 @@
+{
+  "$type": "Comindware.Platform.Contracts.FormModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "ProcessForm",
+    "Owner": "Soglasovaniedogovora",
+    "Alias": "form8763a89f09d448be921fd6916a9605d8"
+  },
+  "IsDefault": false,
+  "Root": {
+    "$type": "Comindware.Platform.Contracts.VerticalLayoutModel, Comindware.Platform.Contracts",
+    "Rows": {
+      "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.FormComponentModel, Comindware.Platform.Contracts]], mscorlib",
+      "$values": [
+        {
+          "$type": "Comindware.Platform.Contracts.FieldComponentModel, Comindware.Platform.Contracts",
+          "Label": {
+            "$type": "Comindware.Platform.Contracts.LabelModel, Comindware.Platform.Contracts",
+            "Hidden": false,
+            "Alignment": "Top",
+            "Text": {
+              "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts",
+              "En": "Дата1",
+              "De": "Дата1",
+              "Ru": "Дата1"
+            }
+          },
+          "FieldType": "Date",
+          "Placeholder": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+          },
+          "HelpText": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+          },
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Attribute",
+                "Owner": "Dogovory",
+                "Alias": "Data1"
+              }
+            ]
+          },
+          "EditorType": "Radio",
+          "CreationType": "None",
+          "RemovalType": "None",
+          "EditType": "None",
+          "DisplayTime": false,
+          "ChildPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "OrderPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "NumberPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "PrecedentPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "SortingDirection": "Asc",
+          "PopupFormAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "GlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "FormComponent",
+            "Alias": "Data1"
+          },
+          "AccessType": "Editable",
+          "Width": 0,
+          "Type": "FieldComponent"
+        },
+        {
+          "$type": "Comindware.Platform.Contracts.FieldComponentModel, Comindware.Platform.Contracts",
+          "Label": {
+            "$type": "Comindware.Platform.Contracts.LabelModel, Comindware.Platform.Contracts",
+            "Hidden": false,
+            "Alignment": "Top",
+            "Text": {
+              "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts",
+              "En": "заявка",
+              "De": "заявка",
+              "Ru": "заявка"
+            }
+          },
+          "FieldType": "Reference",
+          "Placeholder": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+          },
+          "HelpText": {
+            "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+          },
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Attribute",
+                "Owner": "Dogovory",
+                "Alias": "zayavka"
+              }
+            ]
+          },
+          "EditorType": "Radio",
+          "CreationType": "None",
+          "RemovalType": "None",
+          "EditType": "None",
+          "HideSearchBar": false,
+          "ShowAsLink": false,
+          "ChildPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "OrderPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "NumberPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "PrecedentPropertyAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "SortingDirection": "Asc",
+          "PopupFormAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Undefined"
+          },
+          "AllowEdit": false,
+          "GlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "FormComponent",
+            "Alias": "zayavka"
+          },
+          "AccessType": "Editable",
+          "Width": 0,
+          "Type": "FieldComponent"
+        }
+      ]
+    },
+    "GlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "FormComponent",
+      "Alias": "root"
+    },
+    "AccessType": "Undefined",
+    "Width": 0,
+    "Type": "VerticalLayout"
+  },
+  "Name": "Новая форма",
+  "Origination": "Undefined"
+}

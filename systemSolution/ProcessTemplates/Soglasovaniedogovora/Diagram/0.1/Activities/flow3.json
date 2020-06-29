@@ -1,0 +1,92 @@
+{
+  "$type": "Comindware.Platform.Contracts.FlowActivityModel, Comindware.Platform.Contracts",
+  "SourceConnectorIndex": 0,
+  "TargetConnectorIndex": 10,
+  "Points": {
+    "$type": "Comindware.Platform.Contracts.VectorModel[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+        "X": 0.0,
+        "Y": 0.0
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+        "X": 20.0,
+        "Y": 0.0
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+        "X": 198.0,
+        "Y": 0.0
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+        "X": 198.0,
+        "Y": 20.0
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+        "X": 218.0,
+        "Y": 20.0
+      }
+    ]
+  },
+  "SequenceDefinition": {
+    "$type": "Comindware.Platform.Contracts.SequenceFlowDefinitionModel, Comindware.Platform.Contracts",
+    "IsDefault": false
+  },
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Activity",
+    "Owner": "Soglasovaniedogovora",
+    "Alias": "flow3"
+  },
+  "IsTitleSet": false,
+  "Position": {
+    "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+    "X": 840.0,
+    "Y": 100.0
+  },
+  "Size": {
+    "$type": "Comindware.Platform.Contracts.DimensionsModel, Comindware.Platform.Contracts",
+    "Width": 0.0,
+    "Height": 0.0
+  },
+  "Connectors": {
+    "$type": "Comindware.Platform.Contracts.ConnectorModel[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.ConnectorModel, Comindware.Platform.Contracts",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Activity",
+          "Owner": "Soglasovaniedogovora",
+          "Alias": "noneEndEvent1"
+        },
+        "TargetConnectorIndex": 30,
+        "OwnIndex": 10
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ConnectorModel, Comindware.Platform.Contracts",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Activity",
+          "Owner": "Soglasovaniedogovora",
+          "Alias": "userTask2"
+        },
+        "TargetConnectorIndex": 40,
+        "OwnIndex": 0
+      }
+    ]
+  },
+  "OwnerEmbeddedProcessActivityAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "MountedOnAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "Type": "Flow"
+}

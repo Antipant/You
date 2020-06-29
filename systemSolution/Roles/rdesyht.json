@@ -1,0 +1,58 @@
+{
+  "$type": "Comindware.Platform.Contracts.RoleConfigurationModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "RoleConfiguration",
+    "Alias": "rdesyht"
+  },
+  "Name": "rdesyht",
+  "IsActive": true,
+  "Members": {
+    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+    "$values": []
+  },
+  "RootResource": {
+    "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+    "Role": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "RoleConfiguration",
+      "Alias": "rdesyht"
+    },
+    "Name": "System business app",
+    "Description": "Системное бизнес приложение",
+    "Target": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "Solution",
+      "Alias": "systemSolution"
+    },
+    "Children": {
+      "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+      "$values": [
+        {
+          "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+          "Role": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "RoleConfiguration",
+            "Alias": "rdesyht"
+          },
+          "Name": "Второй процесс по заявке",
+          "Target": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "ProcessTemplate",
+            "Alias": "Vtoroyprotsesspozayavke"
+          },
+          "Children": {
+            "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+            "$values": []
+          },
+          "TargetType": "ProcessTemplate",
+          "Privileges": "Read",
+          "AvailablePrivileges": "ContextUserExpression, ContextObjectCondition, Read, Create, Update, Delete, FullAccess"
+        }
+      ]
+    },
+    "TargetType": "BusinessApp",
+    "Privileges": "Create",
+    "AvailablePrivileges": "Read, Create, Update, Delete, FullAccess"
+  }
+}

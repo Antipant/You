@@ -1,7 +1,8 @@
 {
   "$type": "Comindware.Platform.Contracts.TransferMetadata, Comindware.Platform.Contracts",
-  "Name": "test",
-  "Alias": "test",
-  "Database": "64e7ed88-38eb-415c-8a79-167ccef51fc0",
-  "Version": "3.5.547.0"
+  "Name": "System business app",
+  "Alias": "systemSolution",
+  "Description": "Системное бизнес приложение",
+  "Database": "9b7b4672-db5b-4b2a-a3b0-66573e186a5f",
+  "Version": "3.5.696.0"
 }

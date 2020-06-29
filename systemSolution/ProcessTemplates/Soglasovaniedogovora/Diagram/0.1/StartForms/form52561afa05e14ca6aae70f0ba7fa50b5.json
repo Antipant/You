@@ -1,0 +1,11 @@
+{
+  "$type": "Comindware.Platform.Contracts.FormModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "ProcessForm",
+    "Owner": "Soglasovaniedogovora",
+    "Alias": "form52561afa05e14ca6aae70f0ba7fa50b5"
+  },
+  "IsDefault": false,
+  "Origination": "Undefined"
+}

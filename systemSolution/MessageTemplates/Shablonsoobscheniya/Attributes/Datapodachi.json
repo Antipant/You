@@ -1,0 +1,26 @@
+{
+  "$type": "Comindware.Platform.Contracts.AttributeModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Attribute",
+    "Alias": "Datapodachi"
+  },
+  "Type": "DateTime",
+  "Format": "Undefined",
+  "Name": "Дата подачи",
+  "IsSystem": false,
+  "IsDisabled": false,
+  "IsUnique": false,
+  "IsIndexed": false,
+  "IsTracked": true,
+  "IsDigitGrouping": false,
+  "IsMultiValue": false,
+  "IsTitle": false,
+  "IsMandatory": false,
+  "IsOwnership": false,
+  "IsCalculated": false,
+  "InstanceGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  }
+}

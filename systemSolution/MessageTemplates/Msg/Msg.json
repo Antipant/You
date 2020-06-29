@@ -1,0 +1,10 @@
+{
+  "$type": "Comindware.Platform.Contracts.MessageTypeConfigurationModel, Comindware.Platform.Contracts",
+  "Name": "Msg",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "MessageTemplate",
+    "Alias": "Msg"
+  },
+  "Kind": "ExternalKind"
+}

@@ -1,0 +1,232 @@
+{
+  "$type": "Comindware.Platform.Contracts.DatasetModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Dataset",
+    "Owner": "Zayavkanaavto444",
+    "Alias": "newList"
+  },
+  "IsLazyLoading": false,
+  "Name": "Новый список",
+  "Columns": {
+    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ColumnConfigurationModel, Comindware.Platform.Contracts]], mscorlib",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.ColumnConfigurationModel, Comindware.Platform.Contracts",
+        "PropertyPath": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+              "Type": "Attribute",
+              "Owner": "Zayavkanaavto444",
+              "Alias": "name"
+            }
+          ]
+        },
+        "Name": "name",
+        "Layout": {
+          "$type": "Comindware.Platform.Contracts.ColumnLayoutModel, Comindware.Platform.Contracts",
+          "Flex": 1.0,
+          "Width": 0.0
+        },
+        "IsHidden": false
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ColumnConfigurationModel, Comindware.Platform.Contracts",
+        "PropertyPath": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+              "Type": "Attribute",
+              "Owner": "Zayavkanaavto444",
+              "Alias": "Da"
+            }
+          ]
+        },
+        "Name": "Да",
+        "Layout": {
+          "$type": "Comindware.Platform.Contracts.ColumnLayoutModel, Comindware.Platform.Contracts",
+          "Flex": 1.0,
+          "Width": 0.0
+        },
+        "IsHidden": false
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ColumnConfigurationModel, Comindware.Platform.Contracts",
+        "PropertyPath": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+              "Type": "Attribute",
+              "Owner": "Zayavkanaavto444",
+              "Alias": "Data1"
+            }
+          ]
+        },
+        "Name": "Дата1",
+        "Layout": {
+          "$type": "Comindware.Platform.Contracts.ColumnLayoutModel, Comindware.Platform.Contracts",
+          "Flex": 1.0,
+          "Width": 0.0
+        },
+        "IsHidden": false
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ColumnConfigurationModel, Comindware.Platform.Contracts",
+        "PropertyPath": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+              "Type": "Attribute",
+              "Owner": "Zayavkanaavto444",
+              "Alias": "Otvetstvennyy"
+            }
+          ]
+        },
+        "Name": "Ответственный",
+        "Layout": {
+          "$type": "Comindware.Platform.Contracts.ColumnLayoutModel, Comindware.Platform.Contracts",
+          "Flex": 1.0,
+          "Width": 0.0
+        },
+        "IsHidden": false
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ColumnConfigurationModel, Comindware.Platform.Contracts",
+        "PropertyPath": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+              "Type": "Attribute",
+              "Owner": "Zayavkanaavto444",
+              "Alias": "Status"
+            }
+          ]
+        },
+        "Name": "Статус",
+        "Layout": {
+          "$type": "Comindware.Platform.Contracts.ColumnLayoutModel, Comindware.Platform.Contracts",
+          "Flex": 1.0,
+          "Width": 0.0
+        },
+        "IsHidden": false
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ColumnConfigurationModel, Comindware.Platform.Contracts",
+        "PropertyPath": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+              "Type": "Attribute",
+              "Owner": "Zayavkanaavto444",
+              "Alias": "zayavka"
+            }
+          ]
+        },
+        "Name": "заявка",
+        "Layout": {
+          "$type": "Comindware.Platform.Contracts.ColumnLayoutModel, Comindware.Platform.Contracts",
+          "Flex": 1.0,
+          "Width": 0.0
+        },
+        "IsHidden": false
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ColumnConfigurationModel, Comindware.Platform.Contracts",
+        "PropertyPath": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+              "Type": "Attribute",
+              "Owner": "Zayavkanaavto444",
+              "Alias": "kolichestvo"
+            }
+          ]
+        },
+        "Name": "количество",
+        "Layout": {
+          "$type": "Comindware.Platform.Contracts.ColumnLayoutModel, Comindware.Platform.Contracts",
+          "Flex": 1.0,
+          "Width": 0.0
+        },
+        "IsHidden": false
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ColumnConfigurationModel, Comindware.Platform.Contracts",
+        "PropertyPath": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+              "Type": "Attribute",
+              "Owner": "Zayavkanaavto444",
+              "Alias": "dlitelnost"
+            }
+          ]
+        },
+        "Name": "длительность",
+        "Layout": {
+          "$type": "Comindware.Platform.Contracts.ColumnLayoutModel, Comindware.Platform.Contracts",
+          "Flex": 1.0,
+          "Width": 0.0
+        },
+        "IsHidden": false
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ColumnConfigurationModel, Comindware.Platform.Contracts",
+        "PropertyPath": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+              "Type": "Attribute",
+              "Owner": "Zayavkanaavto444",
+              "Alias": "dokument"
+            }
+          ]
+        },
+        "Name": "документ",
+        "Layout": {
+          "$type": "Comindware.Platform.Contracts.ColumnLayoutModel, Comindware.Platform.Contracts",
+          "Flex": 1.0,
+          "Width": 0.0
+        },
+        "IsHidden": false
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ColumnConfigurationModel, Comindware.Platform.Contracts",
+        "PropertyPath": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+              "Type": "Attribute",
+              "Owner": "Zayavkanaavto444",
+              "Alias": "kollektsiya"
+            }
+          ]
+        },
+        "Name": "коллекция",
+        "Layout": {
+          "$type": "Comindware.Platform.Contracts.ColumnLayoutModel, Comindware.Platform.Contracts",
+          "Flex": 1.0,
+          "Width": 0.0
+        },
+        "IsHidden": false
+      }
+    ]
+  },
+  "Paging": {
+    "$type": "Comindware.Platform.Contracts.PagingConfigurationModel, Comindware.Platform.Contracts",
+    "Page": 0,
+    "Size": 100
+  },
+  "ViewType": "General"
+}

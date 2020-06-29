@@ -1,0 +1,60 @@
+{
+  "$type": "Comindware.Platform.Contracts.FlowActivityModel, Comindware.Platform.Contracts",
+  "SourceConnectorIndex": 0,
+  "TargetConnectorIndex": 10,
+  "Points": {
+    "$type": "Comindware.Platform.Contracts.VectorModel[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+        "X": 0.0,
+        "Y": 0.0
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+        "X": 20.0,
+        "Y": 0.0
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+        "X": 220.0,
+        "Y": 0.0
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+        "X": 240.0,
+        "Y": 0.0
+      }
+    ]
+  },
+  "SequenceDefinition": {
+    "$type": "Comindware.Platform.Contracts.SequenceFlowDefinitionModel, Comindware.Platform.Contracts",
+    "IsDefault": false
+  },
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Activity",
+    "Owner": "Soglasovaniezayavkinaavto444",
+    "Alias": "flow2"
+  },
+  "IsTitleSet": false,
+  "Position": {
+    "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+    "X": 560.0,
+    "Y": 120.0
+  },
+  "Size": {
+    "$type": "Comindware.Platform.Contracts.DimensionsModel, Comindware.Platform.Contracts",
+    "Width": 0.0,
+    "Height": 0.0
+  },
+  "OwnerEmbeddedProcessActivityAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "MountedOnAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "Type": "Flow"
+}

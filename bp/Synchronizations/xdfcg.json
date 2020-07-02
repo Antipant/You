@@ -1,0 +1,41 @@
+{
+  "$type": "Comindware.Platform.Contracts.SynchronizationConfigModel, Comindware.Platform.Contracts",
+  "Name": "xdfcg",
+  "OperationType": "Import",
+  "RecordTemplate": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "RecordTemplate",
+    "Alias": "Zayavkanaavto444"
+  },
+  "ODataChannel": "Новый канал",
+  "ExternalTemplate": "AddressObjects",
+  "ImportSettings": {
+    "$type": "Comindware.Platform.Contracts.ImportSettingsModel, Comindware.Platform.Contracts",
+    "Filter": "",
+    "TimePropertyValue": "00:00:00"
+  },
+  "PropertyMap": {
+    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.PropertyMapModel, Comindware.Platform.Contracts]], mscorlib",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.PropertyMapModel, Comindware.Platform.Contracts",
+        "IsKey": true,
+        "ExternalPropertyKey": "AoId",
+        "InternalPropertyKey": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Attribute",
+          "Alias": "id"
+        }
+      }
+    ]
+  },
+  "ScheduleConfiguration": {
+    "$type": "Comindware.Platform.Contracts.ScheduleConfigurationModel, Comindware.Platform.Contracts",
+    "Type": "Manual"
+  },
+  "DeleteConditionConfiguration": {
+    "$type": "Comindware.Platform.Contracts.DeleteConditionConfigurationModel, Comindware.Platform.Contracts",
+    "DeleteNonExistent": false
+  },
+  "ObjectFetchingStrategy": "All"
+}

@@ -1,12 +1,12 @@
 {
   "$type": "Comindware.Platform.Contracts.PoolActivityModel, Comindware.Platform.Contracts",
-  "Index": 0,
   "GlobalAlias": {
     "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
     "Type": "Activity",
     "Owner": "Vtoroyprotsesspozayavke",
     "Alias": "pool1"
   },
+  "Index": 0,
   "Title": "Пул",
   "IsTitleSet": false,
   "Description": "Пул",

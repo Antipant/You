@@ -1,14 +1,14 @@
 {
   "$type": "Comindware.Platform.Contracts.EndEventActivityModel, Comindware.Platform.Contracts",
-  "Kind": "None",
-  "IsInterrupting": false,
-  "BehaviourState": "Active",
   "GlobalAlias": {
     "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
     "Type": "Activity",
     "Owner": "Soglasovaniedogovora",
     "Alias": "noneEndEvent1"
   },
+  "Kind": "None",
+  "IsInterrupting": false,
+  "BehaviourState": "Active",
   "Title": "Завершающее событие 1",
   "IsTitleSet": false,
   "Position": {

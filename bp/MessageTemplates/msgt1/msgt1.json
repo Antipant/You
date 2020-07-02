@@ -1,6 +1,6 @@
 {
   "$type": "Comindware.Platform.Contracts.MessageTypeConfigurationModel, Comindware.Platform.Contracts",
-  "Name": "MessageForRequestor",
+  "Name": "TestMessageType",
   "GlobalAlias": {
     "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
     "Type": "MessageTemplate",

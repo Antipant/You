@@ -2,6 +2,12 @@
   "$type": "Comindware.Platform.Contracts.FlowActivityModel, Comindware.Platform.Contracts",
   "SourceConnectorIndex": 0,
   "TargetConnectorIndex": 10,
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Activity",
+    "Owner": "Soglasovaniezayavkinaavto444",
+    "Alias": "flow2"
+  },
   "Points": {
     "$type": "Comindware.Platform.Contracts.VectorModel[], Comindware.Platform.Contracts",
     "$values": [
@@ -30,12 +36,6 @@
   "SequenceDefinition": {
     "$type": "Comindware.Platform.Contracts.SequenceFlowDefinitionModel, Comindware.Platform.Contracts",
     "IsDefault": false
-  },
-  "GlobalAlias": {
-    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-    "Type": "Activity",
-    "Owner": "Soglasovaniezayavkinaavto444",
-    "Alias": "flow2"
   },
   "IsTitleSet": false,
   "Position": {
